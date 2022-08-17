@@ -19,7 +19,7 @@ import com.model2.mvc.service.domain.User;
 
 
 
-public class RestHttpClientApp {
+public class RestUserHttpClientApp {
 	
 	// main Method
 	public static void main(String[] args) throws Exception{
@@ -30,7 +30,7 @@ public class RestHttpClientApp {
 		
 //		System.out.println("\n====================================\n");
 //		// 1.1 Http Get 방식 Request : JsonSimple lib 사용
-//		RestHttpClientApp.getUserTest_JsonSimple();
+		RestUserHttpClientApp.getUserTest_JsonSimple();
 		
 //		System.out.println("\n====================================\n");
 //		// 1.2 Http Get 방식 Request : CodeHaus lib 사용
